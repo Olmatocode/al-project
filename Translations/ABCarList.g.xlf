@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ABCarList">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 856964189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 3954577648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Nr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field Car Nr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 973760355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field Car User - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 3645678573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Age</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarAge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 2306012540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Owners Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 2306012540 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regular car,Truck 5t,Truck 7t</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarType - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 2509398674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Owners Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field OwnerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>AB Car List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 3954577648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Nr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car Nr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 3954577648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Nr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car Nr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 1529444163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car user - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 1529444163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car user - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 3645678573 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Age</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarAge - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 3645678573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Age</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarAge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 2306012540 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 2306012540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 2509398674 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Owners Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control OwnerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 2509398674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Owners Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control OwnerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Action 1840194092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show average age of all cars</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Action Show average age of all cars - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
