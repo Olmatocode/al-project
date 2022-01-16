@@ -34,13 +34,12 @@ table 50102 "ABCar"
             NotBlank = true;
         }
 
-        field(4; "CarType"; Option)
+        field(4; "CarType"; Enum"ABCarType")
         {
-            Caption = 'Owners Name';
-            OptionMembers = "Regular car","Truck 5t","Truck 7t";
+            Caption = 'Car type';
             NotBlank = true;
         }
-        field(5; "Car User"; Text[40])
+        field(5; "CarUser"; Text[40])
         {   
             Caption = 'Car User';
             TableRelation = "Employee"."No.";
@@ -49,10 +48,18 @@ table 50102 "ABCar"
             trigger OnValidate()
             var carUser: Text;
             begin
-                carUser := "Car User";
-                if "Car User".Contains(carUser) then
+                carUser := "CarUser";
+                if "CarUser".Contains(carUser) then
                 Error('One user can have only one car');
             end;
+        }
+        field(6; "PriceMultiplier"; Decimal)
+        {
+            Caption = 'Price Multiplier';
+            NotBlank = true;
+            DataClassification = CustomerContent;
+            MinValue = 0.0;
+            MaxValue = 2.0;
         }
     }
     keys
@@ -61,7 +68,7 @@ table 50102 "ABCar"
         {
             Clustered = true;
         }
-        key(emp; "Car User")
+        key(emp; "CarUser")
         {
             Unique = true;
         }

@@ -24,19 +24,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarAge - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 856964189 - Field 2306012540 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Owners Name</source>
+          <source>Car type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarType - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 856964189 - Field 2306012540 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Regular car,Truck 5t,Truck 7t</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarType - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 856964189 - Field 2509398674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Owners Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field OwnerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 856964189 - Field 947730074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Multiplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field Price Multiplier - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AB Car List</source>
@@ -44,7 +44,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Control 3954577648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Car Nr</source>
+          <source>Specifies car registration number</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car Nr - Property ToolTip</note>
         </trans-unit>
@@ -54,7 +54,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car Nr - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Control 1529444163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Car User</source>
+          <source>Specifies car user</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car user - Property ToolTip</note>
         </trans-unit>
@@ -64,7 +64,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Car user - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Control 3645678573 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Car Age</source>
+          <source>Specifies car age</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarAge - Property ToolTip</note>
         </trans-unit>
@@ -74,7 +74,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarAge - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Control 2306012540 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Car Type</source>
+          <source>Specifies car type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarType - Property ToolTip</note>
         </trans-unit>
@@ -84,7 +84,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control CarType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Control 2509398674 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Owners Name</source>
+          <source>Specifies car owners name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control OwnerName - Property ToolTip</note>
         </trans-unit>
@@ -93,10 +93,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control OwnerName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 947730074 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies multiplier for a price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Price Multiplier - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2305279190 - Control 947730074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price Multiplier</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Control Price Multiplier - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2305279190 - Action 1840194092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show average age of all cars</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Action Show average age of all cars - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 18652612 - Field 3954577648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source></source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension  - Field Car Nr - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2904450677 - EnumValue 1943429526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regular car</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ABCarType - EnumValue Regular car - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2904450677 - EnumValue 156714006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Truck 5t</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ABCarType - EnumValue Truck 5t - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2904450677 - EnumValue 672194196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Truck 7t</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum ABCarType - EnumValue Truck 7t - Property Caption</note>
         </trans-unit>
       </group>
     </body>

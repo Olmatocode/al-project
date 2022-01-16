@@ -17,36 +17,40 @@ page 50103 "ABCar List Page"
                 {
                     Caption = 'Car Nr';
                     ApplicationArea = All;
-                    ToolTip = 'Car Nr';
-                    
-                                        
+                    ToolTip = 'Specifies car registration number';                                        
                 }
                 field("CarAge"; Rec. "CarAge") 
                 {
                     Caption = 'Car Age';
                     ApplicationArea = All;
-                    ToolTip = 'Car Age';
+                    ToolTip = 'Specifies car age';
                 }
 
                 field("OwnerName"; Rec. "OwnerName")
                 {
                     Caption = 'Owners Name';
                     ApplicationArea = All;
-                    ToolTip = 'Owners Name';
+                    ToolTip = 'Specifies car owners name';
                 }
 
                 field("CarType"; Rec. "CarType")
                 {
                     Caption = 'Car Type';
                     ApplicationArea = All;
-                    ToolTip = 'Car Type';
+                    ToolTip = 'Specifies car type';
                 }
                 
-                field("Car user"; Rec. "Car User")
+                field("Car user"; Rec. "CarUser")
                 {   
                     Caption = 'Car User';
                     ApplicationArea = All;
-                    ToolTip = 'Car User';
+                    ToolTip = 'Specifies car user';
+                }
+                field("Price Multiplier"; Rec. "PriceMultiplier")
+                {
+                    Caption = 'Price Multiplier';
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies multiplier for a price';
                 }
             }
         }
