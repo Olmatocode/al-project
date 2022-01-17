@@ -16,9 +16,13 @@ tableextension 50101 "" extends "Sales Line"
 
             trigger OnAfterValidate()
 
-            var priceMultiplier: Record "Sales Line";
+            var 
+            priceMultiplier, unitPriceMultiplied : Decimal;
+            carTable: Record ABCar;
             begin
-
+                    priceMultiplier:= carTable.PriceMultiplier;
+                    unitPriceMultiplied:= "Unit Price" * priceMultiplier;
+                    "Unit Price":= unitPriceMultiplied;
             end; 
         }
     }

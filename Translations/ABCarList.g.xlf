@@ -13,11 +13,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field Car Nr - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 856964189 - Field 973760355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Car User</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field Car User - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 856964189 - Field 3645678573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Car Age</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -28,15 +23,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarType - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 856964189 - Field 758455579 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Car User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field CarUser - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 856964189 - Field 2509398674 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Owners Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field OwnerName - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 856964189 - Field 947730074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 856964189 - Field 360833402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price Multiplier</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field Price Multiplier - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table ABCar - Field PriceMultiplier - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2305279190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AB Car List</source>
@@ -107,6 +107,41 @@
           <source>Show average age of all cars</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page ABCar List Page - Action Show average age of all cars - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CarCard</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Control 3954577648 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies car registration number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Control Car Nr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Control 3645678573 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies car age</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Control CarAge - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Control 2306012540 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies car type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Control CarType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Control 758455579 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies car user</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Control CarUser - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Control 2509398674 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies car owners name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Control OwnerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1000343240 - Control 360833402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies multiplier for a price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CarCard - Control PriceMultiplier - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 18652612 - Field 3954577648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
           <source></source>

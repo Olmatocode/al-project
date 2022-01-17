@@ -39,7 +39,6 @@ page 50103 "ABCar List Page"
                     ApplicationArea = All;
                     ToolTip = 'Specifies car type';
                 }
-                
                 field("Car user"; Rec. "CarUser")
                 {   
                     Caption = 'Car User';
