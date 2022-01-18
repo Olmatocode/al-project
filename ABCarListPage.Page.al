@@ -6,6 +6,7 @@ page 50103 "ABCar List Page"
     SourceTable = ABCar;
     Caption = 'AB Car List';
     Editable = true;
+    CardPageId = CarCard;
     
     layout
     {

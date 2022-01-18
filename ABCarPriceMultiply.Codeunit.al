@@ -1,4 +1,4 @@
-codeunit 50103 ABCarAvgAgeCalc
+codeunit 50103 ABCarPriceMultiply
 {   Access = Internal;
     EventSubscriberInstance = StaticAutomatic;
     TableNo = "Sales Line";
@@ -7,11 +7,12 @@ codeunit 50103 ABCarAvgAgeCalc
 
 
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"Release Sales Document", 'OnBeforeManualReleaseSalesDoc', '', true, true)]
-    local procedure OnBeforeManualReleaseSalesDoc(var SalesHeader: Record "Sales Header")
-    var SalesLine: Record "Sales Line"; 
+    local procedure BeforeManualReleaseSalesDoc(var SalesHeader: Record "Sales Header"; PreviewMode: Boolean)
+    var 
+    SalesLine: Record "Sales Line"; 
     begin
-       
 
+            
     end;    
 }
 

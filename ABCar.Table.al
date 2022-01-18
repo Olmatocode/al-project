@@ -45,13 +45,6 @@ table 50102 "ABCar"
             TableRelation = "Employee"."No.";
             NotBlank = true;
             ValidateTableRelation = true;
-            trigger OnValidate()
-            var carUser: Text;
-            begin
-                carUser := "CarUser";
-                if "CarUser".Contains(carUser) then
-                Error('One user can have only one car');
-            end;
         }
         field(6; "PriceMultiplier"; Decimal)
         {
@@ -60,6 +53,11 @@ table 50102 "ABCar"
             DataClassification = CustomerContent;
             MinValue = 0.0;
             MaxValue = 2.0;
+        }
+        field(7; "Registration date"; Date)
+        {
+            DataClassification = CustomerContent;
+            
         }
     }
     keys

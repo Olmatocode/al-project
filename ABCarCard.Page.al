@@ -2,7 +2,7 @@ page 50122 CarCard
 {
     Caption = 'CarCard';
     PageType = Card;
-    UsageCategory = Documents;
+    UsageCategory = Administration;
     SourceTable = ABCar;
     
     layout
@@ -41,6 +41,13 @@ page 50122 CarCard
                     ToolTip = 'Specifies multiplier for a price';
                     ApplicationArea = All;
                 }
+            }
+        }
+        area(FactBoxes)
+        {
+            part(OwnerImage; OwnerImage)
+            {
+
             }
         }
     }
